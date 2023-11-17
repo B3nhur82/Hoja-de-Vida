@@ -64,6 +64,21 @@ footer{
         margin-top: 20px;
     }
 }
+@media screen  and (max-width:600px){
+    
+    .mobile-only{
+         display: block;/* Se muestra solo en pantallas pequeñas*/
+    }
+    .desktop-only{
+        display: none;/* Se Oculta en pantallas Pequeñas*/
+    }
+}
+
+/*Media Query para pantallas medianas*/
+@media screen and (min-width:601px) and (min-width:1024px){
+
+    
+}
 nav {
     display: flex;
     justify-content: center;
@@ -174,3 +189,4 @@ nav a{
     border-radius: 50%;
     margin: auto;
   }
+  
